@@ -1,0 +1,276 @@
+App Mockup
+
+run ruby script
+
+"Welcome. Are you a user or administrator?"
+  1. User
+  2. Administrator
+
+================================================================================================
+
+  1. User
+    1. Login
+    2. Create an account
+
+    1. Login
+      "Enter username: "
+
+      (if username incorrect)
+      "Username not recognized." (link back to 1. Login)
+
+      "Enter password: "
+
+      (if password incorrect)
+      "Incorrect password." (link back to "Enter password")
+
+      User Main Menu
+      "Welcome my underling. What do you wish to achieve today?"
+        1. View recent public messages.
+        2. View my details
+        3. Send a new message
+        4. Delete my account
+        5. Exit app. (self explanatory)
+
+        1. View recent public messages
+         (display username)
+         "The almighty ruler of our world is benevolent and amazing."
+         (display date, time & location of post.)
+
+         -----------------------------------------
+
+         (display username)
+         "Where there is awesomeness in this world, our ruler has created it."
+         (display date, time & location of post.)
+
+         -----------------------------------------
+
+         (display username)
+         "How about them tacos! #TacoTuesday."
+         (display date, time & location of post.)
+
+         "What do you want to do now?"
+         1. Go back (self explanatory)
+         2. Exit program (self explanatory)
+
+        2. View my details
+          Username: tommy.gee
+          First Name: Tom
+          Age: 21
+          Gender: Male
+          Location: Melbourne
+          Phone number: 0404627816
+          Email Address: thomasrobertgee@gmail.com
+          Total message count: 13
+
+          "What do you want to do now?"
+          1. Go back (self explanatory)
+          2. Exit program (self explanatory)
+
+        3. Send a new message
+          "Please enter your new message: "
+
+          (once the message has been entered.)
+          "Thank you for your message, it will be revieved and if deemed worthy be posted to the feed."
+          "FYI, if you said anything bad you will risk your account being terminated and your city being nuked. You have been warned."
+
+          "What do you want to do now?"
+          1. Go back to Main Menu (self explanatory)
+          2. Exit program (self explanatory)
+
+        4. Delete my account
+          "Your request has been put through to the almighty. Try logging on every now and then, if your account hasn't been deleted in 72 hours then you have been deemed too worthy to be terminated, or the almighty has something else in store for you."
+
+          (exit program)
+
+    2. Create an account
+      "Thank you for wishing to join. Please enter your details as prompted."
+
+      "Name: _______"
+      "Username: _______"
+      "Password ________"
+      "Age: _______"
+      "Gender: _______"
+      "Location (City): _______"
+      "Phone Number: _______"
+      "Email: _______"
+
+      "Confirm your details"
+      (display all information)
+      1. Yes
+      2. No
+
+        1. Yes
+          (add details to be approved)
+          "Well done, your request has been sent. Check back in 72 hours "
+
+          (exit program)
+
+        2. No
+          (link back to 2. Create an account)
+
+
+
+================================================================================================
+
+  2. Administrator
+    "Enter password for entry: __________ "
+
+    (if password is incorrect)
+    "Password incorrect." (then link back to 2. Administrator)
+
+    (if password is correct)
+    "Welcome back my benevolence. What do you wish to achieve today?"
+
+    Admin Main Menu
+    1. View users
+    2. Add a new user (link to sub 7. Add a new user)
+    3. Delete an existing user (link to sub 8. Delete a new user)
+    4. View posts
+    5. Exit program (self explanatory)
+
+    1. View users (usernames)
+      1. tommy.gee
+      2. ian_awesomeness
+      3. BadboyBaxter
+      4. tanu.the.terrific
+      5. fast.typer_sharon
+      6. Display all
+      7. Add a new user
+      8. Delete a user
+      9. Go back (self explanatory)
+
+      1 - 5 (display username)
+        Username: tommy.gee
+        Name: Tom Gee
+        Age: 21
+        Gender: Male
+        Location: Melbourne
+        Phone number: 0404627816
+        Email Address: thomasrobertgee@gmail.com
+        Total message count: 13
+
+        "What do you want to do now?"
+          1. View user messages
+          2. Post message on behalf of user
+          3. Delete user
+
+          1. View user messages (each seperated by ----------------)
+
+            (display username)
+            "The almighty ruler of our world is benevolent and amazing."
+            (display date, time & location of post.)
+
+            -----------------------------------------
+
+            (display username)
+            "Where there is awesomeness in this world, our ruler has created it."
+            (display date, time & location of post.)
+
+            "What do you want to do now?"
+            1. Back to Main Menu (self explanatory)
+            2. Exit program (self explanatory)
+
+      6. Display all
+        (display option 1-5 all at once, each seperated by ================
+        or something)
+
+      7. Add a new user
+        (view oldest current pending account request)
+
+        "Name: Billy Feben"
+        "Username: billy_feben"
+        "Password: ********"
+        "Age: 21"
+        "Gender: Male"
+        "Location (City): Darley"
+        "Phone Number: 0456288735"
+        "Email: billyjayfeben@outlook.com"
+
+        "Choose an option below"
+
+        [a]pprove / [r]eject / [e]xit
+
+        (approve will add to the database, reject will delete information, exit will take admin back to Admin Main Menu)
+
+        [a]pprove
+          "Superb, new underling has been created." (Save new user to the database)
+          "What would you like to do now?"
+          1. Add another user
+          2. Back to main menu (self explanatory)
+          3. Exit program (self explanatory)
+
+        [r]eject
+          "Are you sure?"
+          [y]es / [n]o
+
+          [y]es
+          "No wakkas. Account request has been deleted." (delete user request from database)
+          "What would you like to do now?"
+          1. Add another user (link back to 7. Add a new user)
+          2. Back to main menu (self explanatory)
+          3. Exit program (self explanatory)
+
+          [n]o
+          (link back to 7. Add a new user)
+
+      8. Delete a user
+        (display all users)
+        1. tommy.gee
+        2. ian_awesomeness
+        3. BadboyBaxter
+        4. tanu.the.terrific
+        5. fast.typer_sharon
+        6. Go back
+
+        "Please select the user you would like to delete."
+
+        1. tommy.gee
+
+          "Are you sure?"
+            [y]es / [n]o
+
+          y]es
+            "Cool beans. Account has been deleted." (delete user from database)
+            "What would you like to do now?"
+            1. Delete another user (link back to 8. Delete a user)
+            2. Back to main menu (self explanatory)
+            3. Exit program (self explanatory)
+
+          [n]o
+          (link back to 8. Delete a new user)
+
+    4. View Posts
+      1. View posts by specific user
+      2. View all posts
+      3. Go back (self explanatory)
+
+      1. View posts by specific user
+        "Please choose a user: " (display all users)
+        1. tommy.gee
+        2. ian_awesomeness
+        3. BadboyBaxter
+        4. tanu.the.terrific
+        5. fast.typer_sharon
+        6. Go back
+
+      2. View all posts
+
+        display username)
+        "The almighty ruler of our world is benevolent and amazing."
+        (display date, time & location of post.)
+
+        -----------------------------------------
+
+        (display username)
+        "Where there is awesomeness in this world, our ruler has created it."
+        (display date, time & location of post.)
+
+        -----------------------------------------
+
+        (display username)
+        "How about them tacos! #TacoTuesday."
+        (display date, time & location of post.)
+
+        "What do you want to do now?"
+        1. Go back (self explanatory)
+        2. Exit program (self explanatory)

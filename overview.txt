@@ -1,0 +1,47 @@
+App Challenge Overview - Social Media App
+
+"A dictorial social media app where everything controlled by
+the administrator."
+
+This app is being created for the special individual who wishes to own and
+control their own social media app, where all content wished to be posted
+by users must be approved and then posted by the administrator.
+
+User Stories:
+"As a dictator, I wish to have control over everything posted on my social media app so nothing bad is ever publically said about me."
+"As a dictator, I want to be able to completely control the content so I can manipulate the minds of my subjects."
+
+"As a member of the app, I seek the approval of my overlord via my messages being posted on his magnificent social media app."
+
+
+ACTIONS
+This program allows the administrator to:
+1. Add users
+2. Remove users
+3. Edit users
+4. Post messages on behalf of user
+5. Delete messages on behalf of user
+6. Display user details
+BONUS. can display information re messages posted
+  e.g. time & date, word or character count, add #hashtags?
+
+Customer data:
+1. Customer username
+2. Name
+3. Age
+4. Gender
+5. Location (city, country)
+6. Phone number
+7. Email Address
+8. Total message count
+
+Use OOP to create this application
+1. Menu
+2. Files
+3. Methods
+4. Flow of program
+5. Testing & debugging
+
+BONUS
+1. Make a new class for user
+2. Be able to view previously submitted messages
